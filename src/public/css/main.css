@@ -1,4 +1,5 @@
 body{
     background: url(/src/public/img/drogas2.png);
-    color: aliceblue;
+    color: black;
+    display: block;
 }
