@@ -1,15 +1,10 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
+body {
+    background: linear-gradient( rgba(241, 213, 213, 0.8), rgba(207, 206, 206, 0.8)),url(https://st2.depositphotos.com/31324280/43336/i/450/depositphotos_433367202-stock-photo-word-drugs-on-white-isolated.jpg);
+    /* Cambiar el color del texto en general */
 
-
-=======
-body{
-    background: white;
-    color: black;
+    color: #4b41df; /* Cambia "blue" al color que desees */
 }
-.nav{
-    background: black;
-}
->>>>>>> f9eb8e9569029ca0d0b796582d0b6a12714cda63
->>>>>>> 473eeb9c3fd415f1946807f9d2a031319e29a4e2
+p {
+    color: hsl(255, 12%, 7%); /* Cambia "red" al color que desees */
+    font-size: 25px;
+  }
