@@ -5,7 +5,7 @@ body {
 
     /* Cambiar el color del texto en general */
 
-    color: #4b41df; /* Cambia "blue" al color que desees */
+    color: black; /* Cambia "blue" al color que desees */
 }
 p {
     color: hsl(255, 12%, 7%); /* Cambia "red" al color que desees */
@@ -21,9 +21,8 @@ p {
     box-shadow: 1px 0px 30px rgba(236, 241, 133, 0.5);
 
   }
-       
-  
 
+    
 
   /*contact */
 
@@ -109,4 +108,17 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #f0eccc;
+}
+
+/* Container about*/
+
+.container.about{
+    padding-block: auto;
+}
+
+
+/*Service*/
+
+.main.section.p{
+    font-weight: bold;
 }
