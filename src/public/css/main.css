@@ -43,13 +43,12 @@ body {
     color: #33a8f7;
     padding: 40px 0;
     text-align: center;
-    border-radius: 500px;
+
 }
 
 .contact-hero-effect {
     background-color: rgba(213, 216, 219, 0.8);
     padding: 30px;
-    border-radius: 450px;
 }
 
 .contact-hero-section h1 {
