@@ -1,31 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <%- include('partials/head') %>
-    <title><%= title%></title>
+    <%- include ('partials/head') %>
+        <title>
+            <%=title%>
+        </title>
+        <link rel="stylesheet" href="../public/main.cssf">
 </head>
-<body>
-    <%- include('partials/navigation') %>
-    <div class="container vh-100 pt-2 text-center d-flex justify-content-center align-items-center">
-        <div class="card bg-dark text-white text-center">
-            <div class="card-header">
-                <h3>Contact Me</h3>
-            </div>
-            <form>
-                <div class="mb-3">
-                    <label for="email">Email</label>
-                    <input type="email" placeholder="Escribe tu email" class="form-control">
+
+<body class="body-contact">
+    <%- include ('partials/navigation') %>
+        <main class="main-contact">
+            <div class="contact-hero-section">
+                <div class="contact-hero-effect">
+                    <h1>¡la vida te puede llevar mas alto que cualquier tipo de droga!</h1>
+                    <p>“Eres muy importante para,destruirte asi”</p>
+                    <span>¡llena Nuestro formulario y ponte en contacto,si deseas una mano amiga!</span>
                 </div>
-                <div class="mb-3">
+            </div>
+
+            <form action="post" class="contact-form">
+                <div class="form-left">
+                    <!-- aquí va todo el form -->
+                    <label for="name">
+                        Primer Nombre
+                    </label>
+                    <input type="text" name="Nombre" id="name" placeholder="¡Escribe tu nombre aquí!">
+                    <label for="apellido">
+                        Primer Apellido
+                    </label>
+                    <input type="text" name="apellido" id="apellido" placeholder="¡Escribe tu apellido aquí!">
+                    <label for="email">
+                        Email
+                    </label>
+                    <input type="email" name="Email" id="email" placeholder="¡Escribe tu Email aquí!">
                     <label for="mensaje">Mensaje</label>
+                    <textarea name="Mensaje" id="mensaje cols=" 200 rows="7"
+                        placeholder="Aquí puedes escribir tu mensaje, queja o petición">
+                    </textarea>`
+                    <button type="submit">Enviar</button>
                 </div>
             </form>
-        </div>
-    </div>
-    
-    <%- include('partials/footer') %>
+        </main>
+    <%- include ('partials/footer') %> 
 </body>
 </html>
