@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('partials/head') %>
+    <title>
+        <%= title%>
+    </title>
+  </head>
+
+  <body class="d-flex h-100 text-center text-bg-dark">
+    <div class="cover-container d-flex w-100 vh-100 p-3 mx-auto flex-column">
+    <%- include('partials/navigation') %>
+
+    <p class="fs-3 mt-3 bg-danger">Nuestra misión es clara y contundente: crear un mundo libre de adicciones. </p>
+
+    <div class="container px-4" id="featured-3">
+      <h2 class="pb-2 border-bottom">Para lograrlo, trabajamos incansablemente en varias áreas clave:</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"/></svg>
+          </div>
+          <h3 class="fs-2">Prevención</h3>
+          <p>Implementamos programas educativos en escuelas y comunidades para concienciar sobre los riesgos del abuso de sustancias y promover estilos de vida saludables.</p>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
+          </div>
+          <h3 class="fs-2">Tratamiento</h3>
+          <p>Ofrecemos apoyo y recursos a aquellos que luchan contra las adicciones, ayudándoles a encontrar el camino hacia la recuperación y una vida libre de drogas.</p>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg>
+          </div>
+          <h3 class="fs-2">Investigación</h3>
+          <p>Colaboramos con expertos y financiamos investigaciones para comprender mejor las adicciones y desarrollar enfoques más efectivos para su prevención y tratamiento.</p>
+        </div>
+      </div>
+    </div>
+
+    <%- include('partials/footer') %>
+  </body>
+
+</html>

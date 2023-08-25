@@ -16,4 +16,4 @@ app.use(express.static(join(__dirname,'public')))
 
 app.listen(3000)
 
-console.log('servidor en puerto; ',3000)
+console.log('servidor en puerto; http://localhost:3000')

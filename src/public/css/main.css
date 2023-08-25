@@ -10,22 +10,14 @@ body {
 p {
     color: hsl(255, 12%, 7%); /* Cambia "red" al color que desees */
     font-size: 25px;
-  }
+}
 
-  .img-drogas {    /* Cambia "img-drogas" del index */
-    border-radius: 300px;
+/* Cambia "img-drogas" del index */
+.img-drogas {   
+    background-size: cover;
     box-shadow: 1px 0px 30px rgba(42, 44, 2, 0.5);
-  }
-  img  {      /* Cambia "img" del about */
-    border-radius: 300px;
-    box-shadow: 1px 0px 30px rgba(236, 241, 133, 0.5);
-
-  }
-       
-  
-
-
-  /*contact */
+}
+/*contact */
 
 body {
     font-family: Arial, sans-serif;

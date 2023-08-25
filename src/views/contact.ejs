@@ -11,8 +11,7 @@
         <link rel="stylesheet" href="../public/main.cssf">
 </head>
 
-<body class="body-contact">
-    <%- include ('partials/navigation') %>
+<!-- <body class="body-contact">
         <main class="main-contact">
             <div class="contact-hero-section">
                 <div class="contact-hero-effect">
@@ -24,7 +23,6 @@
 
             <form action="post" class="contact-form">
                 <div class="form-left">
-                    <!-- aquí va todo el form -->
                     <label for="name">
                         Primer Nombre
                     </label>
@@ -45,6 +43,41 @@
                 </div>
             </form>
         </main>
-    <%- include ('partials/footer') %> 
-</body>
+</body> -->
+<body class="d-flex h-100 text-center text-bg-dark">
+    <div class="cover-container d-flex w-100 vh-100 p-3 mx-auto flex-column">
+    <%- include('partials/navigation') %>
+
+    <!-- <img class="w-50" style="margin-left: 150px;" src="/img/drogas.png" alt=""> -->
+    <!-- <h1>Acerca de</h1> -->
+    <!-- <p>En un mundo donde las drogas y las adicciones representan una amenaza constante para la salud pública y la seguridad, nuestra entidad se ha erigido como un baluarte en la lucha contra este flagelo. Nos enorgullece presentarles una visión y una misión que tienen un impacto profundo en nuestras comunidades y en la vida de las personas. Somos una organización comprometida con la prevención, tratamiento y erradicación del abuso de sustancias, y hoy, compartimos nuestra pasión y propósito con ustedes.</p> -->
+    
+      <div class="modal-dialog" role="document">
+        <div class="modal-content rounded-4 shadow">
+          <div class="modal-header p-5 pb-4 border-bottom-0">
+            <h1 class="fw-bold mb-0 fs-2">¡llena Nuestro formulario y ponte en contacto, si deseas una mano amiga!</h1>
+          </div>
+    
+          <div class="modal-body p-3 pt-0">
+            <form class="">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+                <label class="text-dark" for="floatingInput">Correo electronico</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+                <label class="text-dark" for="floatingPassword">mensaje</label>
+              </div>
+              <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Enviar</button>
+              <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small>
+              <hr class="my-4">
+              <h2 class="fs-5 fw-bold mb-3">“Eres muy importante para,destruirte asi”</h2>
+              <p>¡la vida te puede llevar mas alto que cualquier tipo de droga!</p>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    <%- include('partials/footer') %>
+  </body>
 </html>
